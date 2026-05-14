@@ -9,7 +9,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 class PredictController:
 
     def __init__(self):
-        self.base_dir = "/home/mahmoud-sayed/Desktop/ITI/Docker/Lab1/ml"
+        self.base_dir = "ml"
         self.load_ml_assets()
 
 
