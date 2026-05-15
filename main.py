@@ -13,5 +13,6 @@ logger.info(msg="App has started")
 
 app.include_router(base.base_router)
 app.include_router(prediction.predict_router)
+app.include_router(health.health_router)
 
 
